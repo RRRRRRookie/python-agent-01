@@ -1,0 +1,7 @@
+# 推荐（最小、兼容性好）
+langchain>=0.1.0,<1.0.0
+openai>=1.0.0,<2.0.0
+google-search-results>=2.0.0,<3.0.0
+uvicorn>=0.17.0
+faiss-cpu>=1.7.2
+pinecone-client>=1.0.0
