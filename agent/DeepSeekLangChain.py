@@ -32,4 +32,4 @@ agent = initialize_agent(
     verbose=True
 )
 
-agent.run("DeepSeek 最新动态是什么？")
+agent.run("Hello?")
