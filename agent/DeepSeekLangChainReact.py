@@ -10,7 +10,6 @@ import os
 # 设置 DeepSeek API（如果提供 API，可类似 OpenAI 使用）
 load_dotenv()
 deep_seek_key=os.environ["DEEPSEEK_API_KEY"]
-serper_api_key=os.environ["SERPAPI_API_KEY"]
 llm = ChatOpenAI(
     base_url="https://api.deepseek.com/v1",
     api_key=deep_seek_key,
